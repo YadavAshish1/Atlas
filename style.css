@@ -1,0 +1,129 @@
+.navbar{
+    height: 50px; 
+   /* width: 100%; */
+    background-color: rgb(208, 207, 207);
+    border-radius: 5px;
+    display: flex;
+    overflow: hidden;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    
+    margin-top: 70px;
+    border-radius: 5px;
+}
+.container{
+  /*  height: 500px; */
+    width: 100%;
+    
+    margin-top: 10px;
+}
+.center{
+    margin-left: 50px;
+    /*height: 30px;*/
+    display: flex;
+    margin-top: 0px;
+    border: none;
+   /* background-color: rgb(208, 207, 207);*/
+    font-weight: bold;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+       
+}
+.logo{
+    height: 30px;
+    margin-top: 10px;
+    
+}
+.text-logo{
+    height: 40px;
+    margin-top: 5px;
+}
+.navbar .center span{
+    font-weight: bold;
+    font-size: 35px;
+   /* margin-top: -8px;*/
+}
+.navbar a{
+   /* margin-top: 5px;*/
+    font-weight: bold;
+}
+.nomargin{
+    margin-left: 0px;
+    
+}
+select{
+    border: none;
+    background-color: rgb(208, 207, 207);
+    font-weight: bold;
+}
+.review{
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.float-right {
+    margin-left: 700px;
+   font-weight: normal;
+}
+.navbar span{
+    display: flex;
+}
+
+
+/* Mobile Responsive */
+
+@media screen and (max-width: 1000px) {
+    .navbar{
+position: relative;
+        height: 600px;
+    
+    }
+    
+    .navbar span{
+     flex-direction: column;
+    }
+    .float-right{
+        position: absolute;
+        right: 40px;
+        top: 40px;
+    }
+     .text-logo{
+        height: 70px;
+        
+    }
+    .logo{
+        height: 60px;
+        
+    }
+   .navbar a{
+    margin-top: 30px;
+   }
+    .navbar .center span{
+        font-size: 50px;
+    }
+    .center{
+        font-size: 60px;
+        
+    }
+    .center select{
+        font-size: 60px;
+    }
+    .center select option{
+        font-size: 15px;
+    }
+    
+    .align{
+        position: absolute;
+        top: 200px;
+        left: 35%;
+    }
+    
+  }
